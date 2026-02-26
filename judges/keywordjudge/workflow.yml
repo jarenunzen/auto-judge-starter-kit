@@ -1,0 +1,8 @@
+judge_class: "judges.keywordjudge.keyword_judge:KeywordJudge"
+
+create_nuggets: false
+create_qrels: false
+judge: true
+
+settings:
+  filebase: "myjudge"

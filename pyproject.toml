@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "auto-judge-starterkit"
+name = "AutojudgeSemantic"
 version = "0.3.2"
-description = "Example AutoJudge implementations for building custom judges"
+description = "Autojudge Submission One"
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.10"
 authors = [
-    {name = "TREC AutoJudge Team"}
+    {name = "Jaren Unzen"}
 ]
 keywords = ["trec", "autojudge", "rag", "evaluation", "ir"]
 classifiers = [
@@ -51,8 +51,8 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/trec-autojudge/auto-judge-starterkit"
-Repository = "https://github.com/trec-autojudge/auto-judge-starterkit"
+Homepage = "https://github.com/jarenunzen/auto-judge-starter-kit.git"
+Repository = "https://github.com/jarenunzen/auto-judge-starter-kit.git"
 
 [tool.setuptools.packages.find]
 where = ["."]

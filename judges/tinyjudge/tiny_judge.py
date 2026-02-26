@@ -7,6 +7,7 @@ This is the simplest possible LLM judge - use it as a starting point.
 """
 
 import asyncio
+import nltk
 from typing import Any, Dict, Iterable, List, Optional, Sequence, Tuple
 
 from autojudge_base import (
