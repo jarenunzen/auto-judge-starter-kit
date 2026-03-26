@@ -1,0 +1,8 @@
+judge_class: "judges.embeddingjudge.embedding_judge:EmbeddingJudge"
+
+create_nuggets: false
+create_qrels: false
+judge: true
+
+settings:
+  filebase: "myjudge"

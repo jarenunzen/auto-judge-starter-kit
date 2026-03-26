@@ -1,0 +1,8 @@
+judge_class: "judges.negationjudge.negation_judge:NegationJudge"
+
+create_nuggets: false
+create_qrels: false
+judge: true
+
+settings:
+  filebase: "myjudge"

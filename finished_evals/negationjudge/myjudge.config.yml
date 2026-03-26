@@ -1,0 +1,18 @@
+name: default
+create_nuggets: false
+create_qrels: false
+judge: true
+llm_model: gpt-4o-mini
+timestamp: '2026-03-25T17:03:51.315378+00:00'
+git:
+  commit: ee5e354951e9c47084a61c2f607b29c3b9cd29b7
+  dirty: 'true'
+  remote: https://github.com/jarenunzen/auto-judge-starter-kit.git
+settings:
+  filebase: myjudge
+nugget_settings:
+  filebase: myjudge
+judge_settings:
+  filebase: myjudge
+qrels_settings:
+  filebase: myjudge
